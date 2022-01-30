@@ -61,3 +61,31 @@ touch aws
 ls
 cat aws
 sudo su
+ll
+git branch
+git branch branch1
+git branch
+git checkout branch1
+git branch
+ll
+touch file3
+git checkout master
+ll
+git checkout branch1
+git status
+git add file3
+git commit -m "third commit" file3
+git branch
+git checkout master
+git branch
+git push -u master
+git push -u origin master
+sudo -l
+ll
+touch file3
+ll
+git status
+git add file3
+git commit -m "third commit" file3
+git branch
+git push -u origin master
